@@ -1,5 +1,7 @@
 from django.db import models
 
+from backend_manufacturers.models import Manufacturers
+
 # Create your models here.
 class Devices(models.Model):
 	manufacturer = models.ForeignKey(Manufacturers)
