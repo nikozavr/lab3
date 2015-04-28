@@ -6,4 +6,7 @@ urlpatterns = [
     # url(r'^$', 'lab3.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^', include('frontend.urls', namespace="frontend")),
+    url(r'^$', include('frontend.urls', namespace="frontend")),
+ 	url(r'^session/$', include('session.urls', namespace="session")),
+       
+]

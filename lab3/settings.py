@@ -51,7 +51,6 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.security.SecurityMiddleware',
 )
 
 ROOT_URLCONF = 'lab3.urls'
@@ -106,10 +105,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-CLIENT_ID = "62MMQWB7TUZQRBJR13IMKOR4BX5BSE0C"
-
-CLIENT_SECRET = "LZ9PFNPQYUQXLDY6B8W4E0UGQOD4TPSV"
-
+DATE_FORMAT = '%Y-%m-%d %H:%M:%S'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
