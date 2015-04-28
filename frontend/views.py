@@ -13,7 +13,7 @@ def index(request):
 	post_data = {"login":"nikozavr",
 				"password":"nikitos1"}
 
-	r, correct = requests.post("http://localhost:8000/session/", data=post_data) 
+	r = requests.post("http://localhost:8000/session/", data=post_data) 
 	#return HttpResponse("Bad")
 	if correct == 1:
 		return JsonResponse(r.json())
