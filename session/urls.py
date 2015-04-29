@@ -1,8 +1,9 @@
 from django.conf.urls import include, url
 
-from frontend import views
+from session import views
 
 urlpatterns = [
-	url(r'^$', views.index, name='index'),
-	
+	url(r'^create/$', views.create, name='create'),	
+	url(r'^creck/$', views.check, name='check'),	
+	url(r'^refresh/$', views.refresh, name='refresh'),	
 ]
