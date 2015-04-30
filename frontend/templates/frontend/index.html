@@ -92,7 +92,7 @@
 				                <td class="text-center">{{ manufacturer.established }}</td>
 				                <td class="text-center">{{ manufacturer.country }}</td> 
 				                {% if data_user != 0 %}
-				                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Изменить</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Удалить</a></td>
+				                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Изменить</a> <a onclick="delete_manufacturer({{ manufacturer.id }})" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Удалить</a></td>
 				                {% endif %}
 				            </tr>
 				            {% endfor %}
@@ -133,7 +133,7 @@
 				                <td class="text-center">{{ device.dig_disp }}</td>
 				                <td class="text-center">{{ device.year }}</td> 
 				                {% if data_user != 0 %}
-				                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Изменить</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Удалить</a></td>
+				                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Изменить</a> <a onclick="delete_device({{ device.id }})" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Удалить</a></td>
 				                {% endif %}
 				            </tr>
 				            {% endfor %}
@@ -163,8 +163,8 @@
 
 	    function  delete_device(device_id) {
 	    	var xhr = new XMLHttpRequest();
-	    	xhr.open('GET', '/device/'+device_id.toString()+'/delete/', true);
-	    	xhr.send();
+	    	xhr.open('GET', 'http://localhost:8000/device/'+device_id.toString()+'/delete/', true);
+	    	
 	    	xhr.onreadystatechange = function() {
 			  if (this.readyState != 4) return;
 
@@ -174,16 +174,16 @@
 
 			  if (this.status != 200) {
 			    // обработать ошибку
-			    alert( 'Ошибка: запрос на удаление не выполнен') );
+			    alert( 'Ошибка: запрос на удаление не выполнен');
 			    return;
 			  }
 			}
+			xhr.send();
 	    }
 
 	    function  delete_manufacturer(manufacturer_id) {
 	    	var xhr = new XMLHttpRequest();
-	    	xhr.open('GET', '/manufacturer/'+manufacturer_id.toString()+'/delete/', true);
-	    	xhr.send();
+	    	xhr.open('GET', 'http://localhost:8000/manufacturer/'+manufacturer_id.toString()+'/delete/', true);
 	    	xhr.onreadystatechange = function() {
 			  if (this.readyState != 4) return;
 
@@ -193,10 +193,11 @@
 
 			  if (this.status != 200) {
 			    // обработать ошибку
-			    alert( 'Ошибка: запрос на удаление не выполнен') );
+			    alert( 'Ошибка: запрос на удаление не выполнен');
 			    return;
 			  }
 			}
+			xhr.send();
 	    }
 
 	</script>

@@ -65,12 +65,12 @@ def check(request):
 				with open(settings.STATIC_ROOT + '/jsons/error_check.json') as data_file:    
 					data = json.load(data_file)
 				logger.info(data)
-				return HttpResponse(json.dumps(data), status=400)
+				return HttpResponse(json.dumps(data), status=401)
 		else:
 			with open(settings.STATIC_ROOT + '/jsons/error_check.json') as data_file:    
 					data = json.load(data_file)
 			logger.info(data)
-			return HttpResponse(json.dumps(data), status=400)
+			return HttpResponse(json.dumps(data), status=401)
 
 @csrf_exempt
 def refresh(request):

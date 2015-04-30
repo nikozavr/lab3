@@ -1,9 +1,11 @@
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
+from django.core.exceptions import ObjectDoesNotExist
 
 from backend_manufacturers.models import Manufacturers
 import json
+import requests
 
 # Create your views here.
 @csrf_exempt
@@ -21,9 +23,24 @@ def remove(request):
 		data = request.body
 		data = json.loads(data.decode('utf8'))
 		session_key = data["session_key"]
-		user_id = int(session_key[:3])
-		logger = logging.getLogger('lab3')
-		s = cache.get(session_key)
+		manufacturer_id = data["manufacturer_id"]
+		post_data = {"session_key": session_key}
+		headers = {'Content-type': 'application/json'}		
+		check = requests("http://localhost:8000/session/check", data=post_data, headers=headers)
+		if check.status_code == requests.codes.ok:
+			try:
+				manufacturer = Manufacturers.objects.get(pk=manufacturer_id)
+				manufacturer.delete()
+			except ObjectDoesNotExist:
+				with open(settings.STATIC_ROOT + '/jsons/manufacturer_not_found.json') as data_file:    
+					data = json.load(data_file)
+				logger.info(data)
+				return HttpResponse(json.dumps(data), status=404)
+		else:
+			with open(settings.STATIC_ROOT + '/jsons/error_check.json') as data_file:    
+				data = json.load(data_file)
+			logger.info(data)
+			return HttpResponse(json.dumps(data), status=401)
 		
 	return HttpResponse("Ok")
 

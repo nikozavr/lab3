@@ -5,6 +5,7 @@ import logging
 import requests
 import json
 from django.core.cache import cache
+from django.contrib import messages
 
 # Create your views here.
 def home(request):
@@ -31,13 +32,10 @@ def index(request):
 		data_devices = r_devices.json()	
 	except ValueError:
 		data_devices = {"count": 0}
-	logger.info("Oppp")
 	if 'session_key' in request.session:
 		post_data = {"session_key":request.session['session_key']}
 		headers = {'Content-type': 'application/json'}
-		logger.info("Oppp")
 		r_user = requests.post("http://localhost:8000/session/userinfo/", data=json.dumps(post_data), headers=headers) 
-		logger.info("Oppp")
 		logger.info(r_user)
 		if r_user.status_code == requests.codes.ok:
 			data_user = r_user.json()
@@ -107,12 +105,15 @@ def logout(request):
 
 def del_device(request, device_id):
 	if request.method == "GET":
+		logger = logging.getLogger('lab3')
 		if 'session_key' in request.session:
 			post_data = {"session_key":request.session['session_key'], "device_id": device_id}
 			headers = {'Content-type': 'application/json'}
 			result = requests.post("http://localhost:8000/backend_devices/remove/", data=json.dumps(post_data), headers=headers) 
-
-
+			if result.status_code == requests.codes.ok:
+				return redirect("http://localhost:8000/")
+			else:
+				messages.add_message(request, messages.INFO, 'Hello world.')
 
 
 	return HttpResponse("Ok")
@@ -124,6 +125,10 @@ def del_manufacturer(request, manufacturer_id):
 			post_data = {"session_key":request.session['session_key'], "manufacturer_id": device_id}
 			headers = {'Content-type': 'application/json'}
 			result = requests.post("http://localhost:8000/backend_manufacturers/remove/", data=json.dumps(post_data), headers=headers) 
+			if result.status_code == requests.codes.ok:
+				return redirect("http://localhost:8000/")
+			else:
+				messages.add_message(request, messages.INFO, 'Hello world.')
 
 	return HttpResponse("Ok")
 
