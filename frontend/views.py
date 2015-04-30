@@ -17,10 +17,11 @@ def index(request):
 
 	headers = {'Content-type': 'application/json'}	
 	logger = logging.getLogger('lab3')		
-	s = cache.get(1234)
 
 	try:
 		if request.session['session_key'] != None:
+			r_manufacturers = requests.get("http://localhost:8000/backend_manufacturers/list/")
+			r_devices = requests.get("http://localhost:8000/backend_devices/list/")
 			return render(request, 'frontend/index.html', )	
 	except KeyError:
 			return render(request, 'frontend/authorize.html', )	
@@ -57,22 +58,21 @@ def login(request):
 		r = requests.post("http://localhost:8000/session/create/", data=json.dumps(post_data), headers=headers) 
 
 		if r.status_code == requests.codes.ok:
-			#data = request.body
 			data = r.json()
-		#	data = json.loads(data.decode('utf8'))
 			logger = logging.getLogger('lab3')
 			logger.info(data)
 			logger.info(data["session_key"])
-		#	data = json.loads(data.decode('utf8'))
 			request.session['session_key'] = data["session_key"]
 			return redirect("http://localhost:8000/")
 		else:
 			error_text = "Password is incorrect"
 			return render(request, 'frontend/authorize.html', {"error_text": error_text})
 
+	return HttpResponse("Ok")
+
 def logout(request):
 	try:
-		del request.session['id']
+		del request.session['session_key']
 	except KeyError:
 		pass
 	return redirect("http://localhost:8000/")

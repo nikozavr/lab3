@@ -9,3 +9,10 @@ class Devices(models.Model):
 	device_type = models.CharField(max_length=50)
 	dig_disp = models.FloatField()
 	year = models.IntegerField()
+
+	def as_json(self):
+		return dict(id=self.id, manufacturer_id=self.manufacturer.id,
+			name=self.name, 
+			device_type =self.device_type,
+			dig_disp=self.dig_disp,
+			year=self.year)

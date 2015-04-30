@@ -130,3 +130,11 @@
 [29/Apr/2015 15:39:29] INFO [lab3:65] 001a302cd687e35896a05e111acbacc79ffa2301cfb20bbb60a2443601e
 [29/Apr/2015 15:39:33] INFO [lab3:64] {u'session_key': u'001b1d8a9e572d87a64da2685c1ddb75f444da84be3b78de8689cfdb753', u'user_id': 1}
 [29/Apr/2015 15:39:33] INFO [lab3:65] 001b1d8a9e572d87a64da2685c1ddb75f444da84be3b78de8689cfdb753
+[30/Apr/2015 00:09:14] INFO [lab3:64] {u'session_key': u'001bf8c831f925b87423afc76c3b9f35ac2c4a0d1e50f4002217dc4dad1', u'user_id': 1}
+[30/Apr/2015 00:09:14] INFO [lab3:65] 001bf8c831f925b87423afc76c3b9f35ac2c4a0d1e50f4002217dc4dad1
+[30/Apr/2015 00:16:27] INFO [lab3:23] Fuck
+[30/Apr/2015 00:16:49] INFO [lab3:23] Fuck
+[30/Apr/2015 00:17:56] INFO [lab3:77] Fuck
+[30/Apr/2015 00:17:56] INFO [lab3:82] Fuck
+[30/Apr/2015 00:18:17] INFO [lab3:64] {u'session_key': u'001e9d6ae3f682b9f7c2572a3e1db79ad5c52d97dd54581897401804084', u'user_id': 1}
+[30/Apr/2015 00:18:17] INFO [lab3:65] 001e9d6ae3f682b9f7c2572a3e1db79ad5c52d97dd54581897401804084
