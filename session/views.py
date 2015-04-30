@@ -25,12 +25,12 @@ def create(request):
 			user = Users.objects.get(login=login)
 			if user.password == password: #check_password(password, user.password):
 				session_key = ""
-				if cache.get(user.id) != None:	
-					cache.delete(user.id)
+				if cache.get(session_key) != None:	
+					cache.delete(session_key)
 				session_key = create_session(user)
-				cache.set(user.id, session_key)	
+				cache.set(session_key, user.id)	
 				json_data = json.dumps({"user_id": user.id, "session_key": session_key})
-				#logger.info(json_data)
+				logger.info(json_data)
 				return HttpResponse(json_data, content_type="application/json")
 			else: 
 				with open(settings.STATIC_ROOT + '/jsons/error_log_pas.json') as data_file:    
@@ -53,8 +53,8 @@ def check(request):
 		data = json.loads(data.decode('utf8'))
 		session_key = data["session_key"]
 		user_id = int(session_key[:3])
-		s = cache.get(user_id)
-		if s == session_key:
+		s = cache.get(session_key)
+		if s == user_id:
 			try:
 				user = Users.objects.get(pk=user_id)
 				with open(settings.STATIC_ROOT + '/jsons/check_ok.json') as data_file:    
@@ -86,3 +86,34 @@ def create_session(user):
 	session_key = ("%03d" % user.id) + session_key
 	return session_key
 
+
+@csrf_exempt
+def userinfo(request):
+	if request.method == "POST":
+		data = request.body
+		data = json.loads(data.decode('utf8'))
+		session_key = data["session_key"]
+		user_id = int(session_key[:3])
+
+		logger = logging.getLogger('lab3')
+
+		logger.info(session_key)
+		logger.info(user_id)
+		s = cache.get(session_key)
+		logger.info(s)
+		if s == user_id:
+			try:
+				user = Users.objects.get(pk=user_id)
+				data = json.dumps(user.as_json())
+				logger.info(data)
+				return HttpResponse(data)
+			except ObjectDoesNotExist:
+				with open(settings.STATIC_ROOT + '/jsons/error_check.json') as data_file:    
+					data = json.load(data_file)
+				logger.info(data)
+				return HttpResponse(json.dumps(data), status=400)
+		else:
+			with open(settings.STATIC_ROOT + '/jsons/error_check.json') as data_file:    
+					data = json.load(data_file)
+			logger.info(data)
+			return HttpResponse(json.dumps(data), status=400)

@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
-from django.core import serializers
+
 from backend_manufacturers.models import Manufacturers
 import json
 
@@ -17,6 +17,14 @@ def list(request):
 
 @csrf_exempt
 def remove(request):
+	if request.method == "POST":
+		data = request.body
+		data = json.loads(data.decode('utf8'))
+		session_key = data["session_key"]
+		user_id = int(session_key[:3])
+		logger = logging.getLogger('lab3')
+		s = cache.get(session_key)
+		
 	return HttpResponse("Ok")
 
 @csrf_exempt

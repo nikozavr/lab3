@@ -51,8 +51,12 @@
   
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li>Добро пожаловать</li>
+          {% if data_user != 0 %}
+            <li><a href="#">Добро пожаловать, {{ data_user.name }}</a></li>
             <li><a href="/logout/">Выйти</a></li>
+           {% else %}
+           		<li><a href="/login/">Войти</a></li>
+           {% endif %}
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -68,32 +72,31 @@
 				    <div class="row custyle">
 				    <table class="table table-striped custab">
 				    <thead>
+				    {% if data_user != 0 %}
 				    <a href="#" class="btn btn-primary btn-xs pull-right">Добавить нового производителя</a>
+				    {% endif %}
 				        <tr>
-				            <th>ID</th>
-				            <th>Title</th>
-				            <th>Parent ID</th>
-				            <th class="col-md-3 text-center">Action</th>
+				            <th class="col-md-1 text-center">id</th>
+				            <th class="col-md-2 text-center">Название</th>
+				            <th class="col-md-1 text-center">Год основания</th>
+				            <th class="col-md-2 text-center">Страна</th>
+				            {% if data_user != 0 %}
+				            <th class="col-md-2 text-center">Действия</th>
+				            {% endif %}
 				        </tr>
 				    </thead>
+				    		{% for manufacturer in data_manufacturers.manufacturers %}
 				            <tr>
-				                <td>1</td>
-				                <td>News</td>
-				                <td>News Cate</td>
+				                <td class="text-center">{{ manufacturer.id }}</td>
+				                <td class="text-center">{{ manufacturer.name }}</td>
+				                <td class="text-center">{{ manufacturer.established }}</td>
+				                <td class="text-center">{{ manufacturer.country }}</td> 
+				                {% if data_user != 0 %}
 				                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Изменить</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Удалить</a></td>
+				                {% endif %}
 				            </tr>
-				            <tr>
-				                <td>2</td>
-				                <td>Products</td>
-				                <td>Main Products</td>
-				                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
-				            </tr>
-				            <tr>
-				                <td>3</td>
-				                <td>Blogs</td>
-				                <td>Parent Blogs</td>
-				                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
-				            </tr>
+				            {% endfor %}
+
 				    </table>
 				    </div>
 				</div>
@@ -106,69 +109,41 @@
 				    <div class="row custyle">
 				    <table class="table table-striped custab">
 				    <thead>
-				    <a href="#" class="btn btn-primary btn-xs pull-right">Добавить нового производителя</a>
+				    {% if data_user != 0 %}
+				    <a href="#" class="btn btn-primary btn-xs pull-right">Добавить новое устройство</a>
+				    {% endif %}
 				        <tr>
-				            <th>ID</th>
-				            <th>Title</th>
-				            <th>Parent ID</th>
-				            <th class="col-md-3 text-center">Action</th>
+				            <th class="col-md-1 text-center">id</th>
+				            <th class="col-md-2 text-center">Название</th>
+				            <th class="col-md-2 text-center">Производитель</th>
+				            <th class="col-md-1 text-center">Тип устройства</th>
+				            <th class="col-md-1 text-center">Диагональ дисплея</th>
+				            <th class="col-md-1 text-center">Год</th>
+				            {% if data_user != 0 %}
+				            <th class="col-md-2 text-center">Действия</th>
+				            {% endif %}
 				        </tr>
 				    </thead>
+				    		{% for device in data_devices.devices %}
 				            <tr>
-				                <td>1</td>
-				                <td>News</td>
-				                <td>News Cate</td>
+				                <td class="text-center">{{ device.id }}</td>
+				                <td class="text-center">{{ device.name }}</td>
+				                <td class="text-center">{{ device.manufacturer }}</td>
+				                <td class="text-center">{{ device.device_type }}</td>
+				                <td class="text-center">{{ device.dig_disp }}</td>
+				                <td class="text-center">{{ device.year }}</td> 
+				                {% if data_user != 0 %}
 				                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Изменить</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Удалить</a></td>
+				                {% endif %}
 				            </tr>
+				            {% endfor %}
 				            <tr>
-				                <td>2</td>
-				                <td>Products</td>
-				                <td>Main Products</td>
-				                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
-				            </tr>
-				            <tr>
-				                <td>3</td>
-				                <td>Blogs</td>
-				                <td>Parent Blogs</td>
-				                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
 				            </tr>
 				    </table>
 				    </div>
 				</div>
 			</div>
 		</div>
-
-	<!--      <table class="table" id="events-id2" data-url="{% static "data.json" %}" data-height="299" >
-		    <thead>
-		    <tr>
-		        <th data-field="state" data-checkbox="true"></th>
-		        <th data-field="id" data-sortable="true">Item ID</th>
-		        <th data-field="name" data-sortable="true">Item Name</th>
-		        <th data-field="price" data-sortable="true">Item Price</th>
-		        <th data-field="operate" data-formatter="operateFormatter" data-events="operateEvents">Item Operate</th>
-		    </tr>
-		    </thead>
-		  </table>
-		 </div>
-
-		 <div id="devices">
-	      <div class="page-header">
-	        <h1>Информация о устройствах</h1>
-	      </div>
-
-	      <table class="table" id="events-id2" data-url="{% static "data.json" %}" data-height="299" >
-		    <thead>
-		    <tr>
-		        <th data-field="state" data-checkbox="true"></th>
-		        <th data-field="id" data-sortable="true">Item ID</th>
-		        <th data-field="name" data-sortable="true">Item Name</th>
-		        <th data-field="price" data-sortable="true">Item Price</th>
-		        <th data-field="operate" data-formatter="operateFormatter" data-events="operateEvents">Item Operate</th>
-		    </tr>
-		    </thead>
-		  </table>-->
-		 
-
 
     </div> <!-- /container -->
 
@@ -186,34 +161,44 @@
 		    $('#navbar a:last').tab('show')
 		  })
 
-	    function operateFormatter(value, row, index) {
-	        return [
-	            '<a class="like" href="javascript:void(0)" title="Like">',
-	                '<i class="glyphicon glyphicon-heart"></i>',
-	            '</a>',
-	            '<a class="edit ml10" href="javascript:void(0)" title="Edit">',
-	                '<i class="glyphicon glyphicon-edit"></i>',
-	            '</a>',
-	            '<a class="remove ml10" href="javascript:void(0)" title="Remove">',
-	                '<i class="glyphicon glyphicon-remove"></i>',
-	            '</a>'
-	        ].join('');
+	    function  delete_device(device_id) {
+	    	var xhr = new XMLHttpRequest();
+	    	xhr.open('GET', '/device/'+device_id.toString()+'/delete/', true);
+	    	xhr.send();
+	    	xhr.onreadystatechange = function() {
+			  if (this.readyState != 4) return;
+
+			  if (this.status == 200) {
+			  	location.reload()
+			  }
+
+			  if (this.status != 200) {
+			    // обработать ошибку
+			    alert( 'Ошибка: запрос на удаление не выполнен') );
+			    return;
+			  }
+			}
 	    }
 
-	    window.operateEvents = {
-	        'click .like': function (e, value, row, index) {
-	            alert('You click like icon, row: ' + JSON.stringify(row));
-	            console.log(value, row, index);
-	        },
-	        'click .edit': function (e, value, row, index) {
-	            alert('You click edit icon, row: ' + JSON.stringify(row));
-	            console.log(value, row, index);
-	        },
-	        'click .remove': function (e, value, row, index) {
-	            alert('You click remove icon, row: ' + JSON.stringify(row));
-	            console.log(value, row, index);
-	        }
-	    };
+	    function  delete_manufacturer(manufacturer_id) {
+	    	var xhr = new XMLHttpRequest();
+	    	xhr.open('GET', '/manufacturer/'+manufacturer_id.toString()+'/delete/', true);
+	    	xhr.send();
+	    	xhr.onreadystatechange = function() {
+			  if (this.readyState != 4) return;
+
+			  if (this.status == 200) {
+			  	location.reload()
+			  }
+
+			  if (this.status != 200) {
+			    // обработать ошибку
+			    alert( 'Ошибка: запрос на удаление не выполнен') );
+			    return;
+			  }
+			}
+	    }
+
 	</script>
 
   </body>

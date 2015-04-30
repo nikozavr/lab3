@@ -9,7 +9,14 @@ urlpatterns = [
 	url(r'^register/', views.register, name="register"),
 
 	url(r'^session/', include('session.urls', namespace="session")),
-	url(r'^backend_manufacturers/', include('backend_manufacturers.urls', namespace="backend_manufacturers"))
+	url(r'^backend_manufacturers/', include('backend_manufacturers.urls', namespace="backend_manufacturers")),
+	url(r'^backend_devices/', include('backend_devices.urls', namespace="backend_devices")),
+
+	url(r'^device/(?P<device_id>[0-9]+)/delete/', views.del_device, name="del_device"),
+	url(r'^manufacturer/(?P<manufacturer_id>[0-9]+)/delete/', views.del_manufacturer, name="del_manufacturer"),
+
+	url(r'^device/(?P<device_id>[0-9]+)/edit/', views.edit_device, name="edit_device"),
+	url(r'^manufacturer/(?P<manufacturer_id>[0-9]+)/edit/', views.edit_manufacturer, name="edit_manufacturer"),
 
 #	url(r'^$', views.index, name='index'),
 ]

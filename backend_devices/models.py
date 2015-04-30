@@ -11,8 +11,8 @@ class Devices(models.Model):
 	year = models.IntegerField()
 
 	def as_json(self):
-		return dict(id=self.id, manufacturer_id=self.manufacturer.id,
+		return dict(id=self.id, manufacturer=self.manufacturer.name,
 			name=self.name, 
-			device_type =self.device_type,
+			device_type=self.device_type,
 			dig_disp=self.dig_disp,
 			year=self.year)

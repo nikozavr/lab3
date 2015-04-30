@@ -25,3 +25,7 @@ class Users(models.Model):
 		password = make_password(password, None, 'md5')
 		user = cls(login=login, email=email, name=name, phone=phone, password=password)
 		return user
+
+	def as_json(self):
+		return dict(login=self.login, email=self.email,
+					name=self.name, phone=self.phone)
