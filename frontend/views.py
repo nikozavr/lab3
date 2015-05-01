@@ -35,12 +35,10 @@ def index(request):
 	if 'session_key' in request.session:
 		post_data = {"session_key":request.session['session_key']}
 		headers = {'Content-type': 'application/json'}
+		logger.info(post_data)
 		r_user = requests.post("http://localhost:8000/session/userinfo/", data=json.dumps(post_data), headers=headers) 
-		logger.info(r_user)
 		if r_user.status_code == requests.codes.ok:
 			data_user = r_user.json()
-			logger.info(data_user)
-			logger.info(data_manufacturers)
 			context = { "data_manufacturers": data_manufacturers,
 						"data_devices": data_devices,
 						"data_user": data_user								
@@ -109,6 +107,7 @@ def del_device(request, device_id):
 		if 'session_key' in request.session:
 			post_data = {"session_key":request.session['session_key'], "device_id": device_id}
 			headers = {'Content-type': 'application/json'}
+			logger.info(post_data)
 			result = requests.post("http://localhost:8000/backend_devices/remove/", data=json.dumps(post_data), headers=headers) 
 			if result.status_code == requests.codes.ok:
 				return redirect("http://localhost:8000/")
@@ -121,14 +120,16 @@ def del_device(request, device_id):
 
 def del_manufacturer(request, manufacturer_id):
 	if request.method == "GET":
+		logger = logging.getLogger('lab3')
 		if 'session_key' in request.session:
-			post_data = {"session_key":request.session['session_key'], "manufacturer_id": device_id}
+			post_data = {"session_key":request.session['session_key'], "manufacturer_id": manufacturer_id}
 			headers = {'Content-type': 'application/json'}
+			logger.info(post_data)
 			result = requests.post("http://localhost:8000/backend_manufacturers/remove/", data=json.dumps(post_data), headers=headers) 
 			if result.status_code == requests.codes.ok:
 				return redirect("http://localhost:8000/")
 			else:
-				messages.add_message(request, messages.INFO, 'Hello world.')
+				messages.add_message(request, messages.ERROR, 'Error delete')
 
 	return HttpResponse("Ok")
 
@@ -141,3 +142,75 @@ def edit_device(request, device_id):
 def edit_manufacturer(request, manufacturer_id):
 
 	return HttpResponse("Ok")
+
+def add_device(request):
+	if request.method == "GET":
+		if 'session_key' in request.session:
+			logger = logging.getLogger('lab3')
+			post_data = {"session_key":request.session['session_key']}
+			headers = {'Content-type': 'application/json'}
+			logger.info(post_data)
+			r_user = requests.post("http://localhost:8000/session/userinfo/", data=json.dumps(post_data), headers=headers) 
+			r_manufacturers = requests.get("http://localhost:8000/backend_manufacturers/list/")
+			try:
+				data_manufacturers = r_manufacturers.json()
+			except ValueError:
+				data_manufacturers = {"count": 0}
+			if r_user.status_code == requests.codes.ok:
+				data_user = r_user.json()
+				context = {"data_user": data_user,
+							"data_manufacturers": data_manufacturers
+							}
+			else:
+				context = {	"data_user": 0,
+							"data_manufacturers": data_manufacturers
+							}
+			return render(request, "frontend/add_device.html", context)
+	if request.method == "POST":
+		if 'session_key' in request.session:
+			logger = logging.getLogger('lab3')
+			name = request.POST.get("name","")
+			manufacturer_id = request.POST.get("manufacturer_id","")
+			device_type = request.POST.get("device_type","")
+			dig_disp = request.POST.get("dig_disp","")
+			year = request.POST.get("year","")
+			post_data = {"session_key":request.session['session_key'], "name": name, "manufacturer_id":manufacturer_id, "device_type": device_type, "dig_disp":dig_disp, "year": year}
+			headers = {'Content-type': 'application/json'}
+			logger.info(post_data)
+			result = requests.post("http://localhost:8000/backend_devices/add/", data=json.dumps(post_data), headers=headers) 
+			if result.status_code == requests.codes.ok:
+				return redirect("http://localhost:8000/")
+			else:
+				messages.add_message(request, messages.INFO, 'Error add.')
+
+
+def add_manufacturer(request):
+	if request.method == "GET":
+		if 'session_key' in request.session:
+			logger = logging.getLogger('lab3')
+			post_data = {"session_key":request.session['session_key']}
+			headers = {'Content-type': 'application/json'}
+			logger.info(post_data)
+			r_user = requests.post("http://localhost:8000/session/userinfo/", data=json.dumps(post_data), headers=headers) 
+			if r_user.status_code == requests.codes.ok:
+				data_user = r_user.json()
+				context = {"data_user": data_user								
+							}
+			else:
+				context = {	"data_user": 0							
+							}
+			return render(request, "frontend/add_manufacturer.html", context)
+	if request.method == "POST":
+		if 'session_key' in request.session:
+			logger = logging.getLogger('lab3')
+			name = request.POST.get("name","")
+			established = request.POST.get("established","")
+			country = request.POST.get("country","")
+			post_data = {"session_key":request.session['session_key'], "name": name, "established":established, "country": country}
+			headers = {'Content-type': 'application/json'}
+			logger.info(post_data)
+			result = requests.post("http://localhost:8000/backend_manufacturers/add/", data=json.dumps(post_data), headers=headers) 
+			if result.status_code == requests.codes.ok:
+				return redirect("http://localhost:8000/")
+			else:
+				messages.add_message(request, messages.INFO, 'Error add.')

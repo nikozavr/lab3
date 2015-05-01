@@ -1,0 +1,169 @@
+[01/May/2015 10:19:41] INFO [session:110] 001c9e73fb8d85647674729dcfc58e6e74fdea1980b4d881fff95fdceb0
+[01/May/2015 10:19:41] INFO [session:111] 1
+[01/May/2015 10:19:41] INFO [session:113] None
+[01/May/2015 10:19:41] INFO [session:128] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 10:21:19] INFO [session:110] 001c9e73fb8d85647674729dcfc58e6e74fdea1980b4d881fff95fdceb0
+[01/May/2015 10:21:19] INFO [session:111] 1
+[01/May/2015 10:21:19] INFO [session:113] None
+[01/May/2015 10:21:19] INFO [session:128] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 10:21:20] INFO [session:34] {"session_key": "00177b8f9723b4163aa91fdf17d526ff7b9e737d3ef5de3998265363d89", "user_id": 1}
+[01/May/2015 10:21:20] INFO [session:110] 00177b8f9723b4163aa91fdf17d526ff7b9e737d3ef5de3998265363d89
+[01/May/2015 10:21:20] INFO [session:111] 1
+[01/May/2015 10:21:20] INFO [session:113] 1
+[01/May/2015 10:21:20] INFO [session:118] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 10:22:09] INFO [session:110] 00177b8f9723b4163aa91fdf17d526ff7b9e737d3ef5de3998265363d89
+[01/May/2015 10:22:09] INFO [session:111] 1
+[01/May/2015 10:22:09] INFO [session:113] 1
+[01/May/2015 10:22:09] INFO [session:118] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 10:22:41] INFO [session:110] 00177b8f9723b4163aa91fdf17d526ff7b9e737d3ef5de3998265363d89
+[01/May/2015 10:22:41] INFO [session:111] 1
+[01/May/2015 10:22:41] INFO [session:113] 1
+[01/May/2015 10:22:41] INFO [session:118] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 10:24:16] INFO [session:110] 00177b8f9723b4163aa91fdf17d526ff7b9e737d3ef5de3998265363d89
+[01/May/2015 10:24:16] INFO [session:111] 1
+[01/May/2015 10:24:16] INFO [session:113] 1
+[01/May/2015 10:24:16] INFO [session:118] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 10:24:20] INFO [session:57] 00177b8f9723b4163aa91fdf17d526ff7b9e737d3ef5de3998265363d89
+[01/May/2015 10:24:20] INFO [session:59] 1
+[01/May/2015 10:24:20] INFO [session:61] 1
+[01/May/2015 10:24:20] INFO [session:64] check
+[01/May/2015 10:24:20] INFO [session:66] check
+[01/May/2015 10:24:20] INFO [session:68] check
+[01/May/2015 10:24:20] INFO [session:70] {u'info': u'Authorized', u'info_description': u'Session key is correct'}
+[01/May/2015 10:24:20] INFO [session:110] 00177b8f9723b4163aa91fdf17d526ff7b9e737d3ef5de3998265363d89
+[01/May/2015 10:24:20] INFO [session:111] 1
+[01/May/2015 10:24:20] INFO [session:113] 1
+[01/May/2015 10:24:20] INFO [session:118] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 10:24:20] INFO [session:110] 00177b8f9723b4163aa91fdf17d526ff7b9e737d3ef5de3998265363d89
+[01/May/2015 10:24:20] INFO [session:111] 1
+[01/May/2015 10:24:20] INFO [session:113] 1
+[01/May/2015 10:24:20] INFO [session:118] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 10:26:58] INFO [session:101] None
+[01/May/2015 10:26:58] INFO [session:116] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 10:27:02] INFO [session:34] {"session_key": "001dec191d6785bdb20987657d1cc71535b5561bf09e99e7d878b15f838", "user_id": 1}
+[01/May/2015 10:27:02] INFO [session:101] 1
+[01/May/2015 10:27:02] INFO [session:106] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:06:14] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:08:57] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:08:59] INFO [session:34] {"session_key": "001472eafcffe047625f131aaf4dc8f8a6c97b6fd15d3950621b192a6de", "user_id": 1}
+[01/May/2015 11:08:59] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:09:26] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:09:28] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:09:43] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:13:19] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:13:22] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:13:28] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:13:32] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:13:59] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:14:01] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:14:02] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:14:07] INFO [session:34] {"session_key": "001ba23440ea4a07ea9f729c2fa4f349d91fdfc1ddfb542f72e133977d3", "user_id": 1}
+[01/May/2015 11:14:07] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:14:34] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:14:35] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:14:53] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:15:49] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:15:51] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:17:18] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:17:20] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:17:35] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:17:38] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:17:40] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:18:08] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:18:10] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:19:25] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:30:13] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:31:11] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:32:18] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:33:18] INFO [session:101] None
+[01/May/2015 11:33:18] INFO [session:116] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:34:09] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:34:11] INFO [session:34] {"session_key": "001b8a9fdec0f6d116a09e4423c064f27804557bade3ea3001d62462430", "user_id": 1}
+[01/May/2015 11:34:11] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:34:12] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:35:08] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:36:07] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:39:01] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:39:05] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:39:07] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:39:52] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:39:56] INFO [session:34] {"session_key": "0017a70c457e6c6b2c14af9235b2318f95e33cc002ddef850d1fec1993d", "user_id": 1}
+[01/May/2015 11:39:56] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:39:59] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:40:03] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:40:06] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:44:12] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:44:25] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:44:27] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:44:28] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:45:35] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:46:44] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:55:02] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 11:55:05] INFO [session:34] {"session_key": "001f3b189253fdcee689e184dff8c58753c05fd3ac765633d99be3fe1e7", "user_id": 1}
+[01/May/2015 11:55:05] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:55:10] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:58:29] INFO [session:64] {u'info': u'Authorized', u'info_description': u'Session key is correct'}
+[01/May/2015 11:59:21] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:59:23] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 11:59:36] INFO [session:64] {u'info': u'Authorized', u'info_description': u'Session key is correct'}
+[01/May/2015 12:03:37] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:03:39] INFO [session:34] {"session_key": "00117f8e6df7660a244fa07527ee09d49fce9a877115368dc8f9f5f3001", "user_id": 1}
+[01/May/2015 12:03:39] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:03:41] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:03:52] INFO [session:64] {u'info': u'Authorized', u'info_description': u'Session key is correct'}
+[01/May/2015 12:04:14] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:04:58] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:05:11] INFO [session:64] {u'info': u'Authorized', u'info_description': u'Session key is correct'}
+[01/May/2015 12:06:52] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:06:54] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:08:43] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:08:46] INFO [session:34] {"session_key": "00118c3798621d0778b353dc459a0bfba6004e5cdf2e86487a8075dea46", "user_id": 1}
+[01/May/2015 12:08:46] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:08:47] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:09:01] INFO [session:64] {u'info': u'Authorized', u'info_description': u'Session key is correct'}
+[01/May/2015 12:17:31] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:17:33] INFO [session:34] {"session_key": "001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2", "user_id": 1}
+[01/May/2015 12:17:33] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:17:34] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:17:45] INFO [session:64] {u'info': u'Authorized', u'info_description': u'Session key is correct'}
+[01/May/2015 12:17:45] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:17:51] INFO [session:64] {u'info': u'Authorized', u'info_description': u'Session key is correct'}
+[01/May/2015 12:17:51] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:17:51] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:21:18] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:21:30] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:22:17] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:22:19] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:22:53] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:23:56] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:24:28] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:26:11] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:26:35] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:27:30] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:27:49] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:28:42] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:33:38] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:41:26] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:42:14] INFO [session:74] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:42:56] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:43:13] INFO [session:74] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:43:40] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:43:42] INFO [session:34] {"session_key": "00178f5947fa2b4ff1a06920203002be16c81c103f4b4707b668f532705", "user_id": 1}
+[01/May/2015 12:43:42] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:43:44] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:43:46] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:43:47] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:44:02] INFO [session:64] {u'info': u'Authorized', u'info_description': u'Session key is correct'}
+[01/May/2015 12:46:05] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:46:07] INFO [session:64] {u'info': u'Authorized', u'info_description': u'Session key is correct'}
+[01/May/2015 12:47:57] INFO [session:64] {u'info': u'Authorized', u'info_description': u'Session key is correct'}
+[01/May/2015 12:48:47] INFO [session:74] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:49:16] INFO [session:74] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:49:24] INFO [session:115] {u'error_description': u'Session key is not correct', u'error': u'Unauthorized'}
+[01/May/2015 12:49:26] INFO [session:34] {"session_key": "001c3bac31704a5cae364bbfdf155f2cc0b4424bfc9eaf82564bdd73922", "user_id": 1}
+[01/May/2015 12:49:26] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:49:30] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:49:44] INFO [session:64] {u'info': u'Authorized', u'info_description': u'Session key is correct'}
+[01/May/2015 12:49:44] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:50:03] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
+[01/May/2015 12:50:04] INFO [session:105] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}

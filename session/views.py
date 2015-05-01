@@ -10,6 +10,7 @@ from django.utils.timezone import utc
 from django.core.cache import cache
 from django.views.decorators.csrf import csrf_exempt
 import logging
+import os
 from django.conf import settings
 
 # Create your views here.
@@ -20,7 +21,7 @@ def create(request):
 		data = json.loads(data.decode('utf8'))
 		login = data["login"]
 		password = data["password"]
-		logger = logging.getLogger('lab3')
+		logger = logging.getLogger('session')
 		try:
 			user = Users.objects.get(login=login)
 			if user.password == password: #check_password(password, user.password):
@@ -33,12 +34,12 @@ def create(request):
 				logger.info(json_data)
 				return HttpResponse(json_data, content_type="application/json")
 			else: 
-				with open(settings.STATIC_ROOT + '/jsons/error_log_pas.json') as data_file:    
+				with open(os.path.join(settings.BASE_DIR, "static/jsons/error_log_pas.json")) as data_file:    
 					data = json.load(data_file)
 				logger.info(data)
 				return HttpResponse(json.dumps(data), status=400)
 		except ObjectDoesNotExist:
-			with open(settings.STATIC_ROOT + '/jsons/error_log_pas.json') as data_file:    
+			with open(os.path.join(settings.BASE_DIR, "static/jsons/error_log_pas.json")) as data_file:    
 				data = json.load(data_file)
 			logger.info(data)
 			return HttpResponse(json.dumps(data), status=400)
@@ -49,6 +50,7 @@ def create(request):
 @csrf_exempt
 def check(request):
 	if request.method == "POST":
+		logger = logging.getLogger('session')
 		data = request.body
 		data = json.loads(data.decode('utf8'))
 		session_key = data["session_key"]
@@ -57,17 +59,17 @@ def check(request):
 		if s == user_id:
 			try:
 				user = Users.objects.get(pk=user_id)
-				with open(settings.STATIC_ROOT + '/jsons/check_ok.json') as data_file:    
+				with open(os.path.join(settings.BASE_DIR, "static/jsons/check_ok.json")) as data_file:  
 					data = json.load(data_file)
 				logger.info(data)
 				return HttpResponse(json.dumps(data))
 			except ObjectDoesNotExist:
-				with open(settings.STATIC_ROOT + '/jsons/error_check.json') as data_file:    
+				with open(os.path.join(settings.BASE_DIR, "static/jsons/error_check.json")) as data_file:    
 					data = json.load(data_file)
 				logger.info(data)
 				return HttpResponse(json.dumps(data), status=401)
 		else:
-			with open(settings.STATIC_ROOT + '/jsons/error_check.json') as data_file:    
+			with open(os.path.join(settings.BASE_DIR, "static/jsons/error_check.json")) as data_file:    
 					data = json.load(data_file)
 			logger.info(data)
 			return HttpResponse(json.dumps(data), status=401)
@@ -94,13 +96,8 @@ def userinfo(request):
 		data = json.loads(data.decode('utf8'))
 		session_key = data["session_key"]
 		user_id = int(session_key[:3])
-
-		logger = logging.getLogger('lab3')
-
-		logger.info(session_key)
-		logger.info(user_id)
+		logger = logging.getLogger('session')
 		s = cache.get(session_key)
-		logger.info(s)
 		if s == user_id:
 			try:
 				user = Users.objects.get(pk=user_id)
@@ -108,12 +105,12 @@ def userinfo(request):
 				logger.info(data)
 				return HttpResponse(data)
 			except ObjectDoesNotExist:
-				with open(settings.STATIC_ROOT + '/jsons/error_check.json') as data_file:    
+				with open(os.path.join(settings.BASE_DIR, "static/jsons/error_check.json")) as data_file:    
 					data = json.load(data_file)
 				logger.info(data)
 				return HttpResponse(json.dumps(data), status=400)
 		else:
-			with open(settings.STATIC_ROOT + '/jsons/error_check.json') as data_file:    
+			with open(os.path.join(settings.BASE_DIR, "static/jsons/error_check.json")) as data_file:    
 					data = json.load(data_file)
 			logger.info(data)
 			return HttpResponse(json.dumps(data), status=400)

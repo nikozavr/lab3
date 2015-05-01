@@ -1,345 +1,95 @@
-[30/Apr/2015 16:02:54] INFO [lab3:45] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 16:08:59] INFO [lab3:34] Oppp
-[30/Apr/2015 16:45:19] INFO [lab3:34] Oppp
-[30/Apr/2015 16:51:45] INFO [lab3:34] Oppp
-[30/Apr/2015 16:51:55] INFO [lab3:33] {"session_key": "0017cb52c0877d1e532dd3d84e085d752b240d3b42ab3831c647a25fef4", "user_id": 1}
-[30/Apr/2015 16:51:55] INFO [lab3:90] {u'session_key': u'0017cb52c0877d1e532dd3d84e085d752b240d3b42ab3831c647a25fef4', u'user_id': 1}
-[30/Apr/2015 16:51:55] INFO [lab3:34] Oppp
-[30/Apr/2015 16:51:55] INFO [lab3:38] Oppp
-[30/Apr/2015 16:51:55] INFO [lab3:100] 0017cb52c0877d1e532dd3d84e085d752b240d3b42ab3831c647a25fef4
-[30/Apr/2015 16:51:55] INFO [lab3:101] 1
-[30/Apr/2015 16:51:55] INFO [lab3:103] 1
-[30/Apr/2015 16:51:55] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 16:51:55] INFO [lab3:40] Oppp
-[30/Apr/2015 16:51:55] INFO [lab3:41] <Response [200]>
-[30/Apr/2015 16:51:55] INFO [lab3:44] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 16:51:55] INFO [lab3:45] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 17:34:07] INFO [lab3:35] Oppp
-[30/Apr/2015 17:34:07] INFO [lab3:39] Oppp
-[30/Apr/2015 17:34:07] INFO [lab3:100] 0017cb52c0877d1e532dd3d84e085d752b240d3b42ab3831c647a25fef4
-[30/Apr/2015 17:34:07] INFO [lab3:101] 1
-[30/Apr/2015 17:34:07] INFO [lab3:103] None
-[30/Apr/2015 17:34:07] INFO [lab3:41] Oppp
-[30/Apr/2015 17:34:07] INFO [lab3:42] <Response [500]>
-[30/Apr/2015 17:34:09] INFO [lab3:33] {"session_key": "001fa2c54b38e2a03684aca9cc15fa4b6a01737a0cc41482b5ae86a9b3c", "user_id": 1}
-[30/Apr/2015 17:34:09] INFO [lab3:91] {u'session_key': u'001fa2c54b38e2a03684aca9cc15fa4b6a01737a0cc41482b5ae86a9b3c', u'user_id': 1}
-[30/Apr/2015 17:34:09] INFO [lab3:35] Oppp
-[30/Apr/2015 17:34:09] INFO [lab3:39] Oppp
-[30/Apr/2015 17:34:09] INFO [lab3:100] 001fa2c54b38e2a03684aca9cc15fa4b6a01737a0cc41482b5ae86a9b3c
-[30/Apr/2015 17:34:09] INFO [lab3:101] 1
-[30/Apr/2015 17:34:09] INFO [lab3:103] 1
-[30/Apr/2015 17:34:09] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 17:34:09] INFO [lab3:41] Oppp
-[30/Apr/2015 17:34:09] INFO [lab3:42] <Response [200]>
-[30/Apr/2015 17:34:09] INFO [lab3:45] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 17:34:09] INFO [lab3:46] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 17:49:48] INFO [lab3:35] Oppp
-[30/Apr/2015 17:49:48] INFO [lab3:39] Oppp
-[30/Apr/2015 17:49:48] INFO [lab3:100] 001fa2c54b38e2a03684aca9cc15fa4b6a01737a0cc41482b5ae86a9b3c
-[30/Apr/2015 17:49:48] INFO [lab3:101] 1
-[30/Apr/2015 17:49:48] INFO [lab3:103] None
-[30/Apr/2015 17:49:48] INFO [lab3:41] Oppp
-[30/Apr/2015 17:49:48] INFO [lab3:42] <Response [500]>
-[30/Apr/2015 17:49:51] INFO [lab3:33] {"session_key": "001c9e6a2eb16aba47eb1c491dff82f8c0a460b7477dd06e07763b3674c", "user_id": 1}
-[30/Apr/2015 17:49:51] INFO [lab3:91] {u'session_key': u'001c9e6a2eb16aba47eb1c491dff82f8c0a460b7477dd06e07763b3674c', u'user_id': 1}
-[30/Apr/2015 17:49:51] INFO [lab3:35] Oppp
-[30/Apr/2015 17:49:51] INFO [lab3:39] Oppp
-[30/Apr/2015 17:49:51] INFO [lab3:100] 001c9e6a2eb16aba47eb1c491dff82f8c0a460b7477dd06e07763b3674c
-[30/Apr/2015 17:49:51] INFO [lab3:101] 1
-[30/Apr/2015 17:49:51] INFO [lab3:103] 1
-[30/Apr/2015 17:49:51] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 17:49:51] INFO [lab3:41] Oppp
-[30/Apr/2015 17:49:51] INFO [lab3:42] <Response [200]>
-[30/Apr/2015 17:49:51] INFO [lab3:45] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 17:49:51] INFO [lab3:46] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 17:50:00] INFO [lab3:35] Oppp
-[30/Apr/2015 17:50:00] INFO [lab3:39] Oppp
-[30/Apr/2015 17:50:00] INFO [lab3:100] 001c9e6a2eb16aba47eb1c491dff82f8c0a460b7477dd06e07763b3674c
-[30/Apr/2015 17:50:00] INFO [lab3:101] 1
-[30/Apr/2015 17:50:00] INFO [lab3:103] 1
-[30/Apr/2015 17:50:00] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 17:50:00] INFO [lab3:41] Oppp
-[30/Apr/2015 17:50:00] INFO [lab3:42] <Response [200]>
-[30/Apr/2015 17:50:00] INFO [lab3:45] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 17:50:00] INFO [lab3:46] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 17:50:18] INFO [lab3:35] Oppp
-[30/Apr/2015 17:50:18] INFO [lab3:39] Oppp
-[30/Apr/2015 17:50:18] INFO [lab3:100] 001c9e6a2eb16aba47eb1c491dff82f8c0a460b7477dd06e07763b3674c
-[30/Apr/2015 17:50:18] INFO [lab3:101] 1
-[30/Apr/2015 17:50:18] INFO [lab3:103] 1
-[30/Apr/2015 17:50:18] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 17:50:18] INFO [lab3:41] Oppp
-[30/Apr/2015 17:50:18] INFO [lab3:42] <Response [200]>
-[30/Apr/2015 17:50:18] INFO [lab3:45] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 17:50:18] INFO [lab3:46] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 17:56:27] INFO [lab3:35] Oppp
-[30/Apr/2015 17:56:27] INFO [lab3:39] Oppp
-[30/Apr/2015 17:56:27] INFO [lab3:100] 001c9e6a2eb16aba47eb1c491dff82f8c0a460b7477dd06e07763b3674c
-[30/Apr/2015 17:56:27] INFO [lab3:101] 1
-[30/Apr/2015 17:56:27] INFO [lab3:103] None
-[30/Apr/2015 17:56:27] INFO [lab3:41] Oppp
-[30/Apr/2015 17:56:27] INFO [lab3:42] <Response [500]>
-[30/Apr/2015 17:56:30] INFO [lab3:33] {"session_key": "0018f04801ed83553a8bae504fbdb5d9e9e263f0a0e0c9b23ab17f53fb2", "user_id": 1}
-[30/Apr/2015 17:56:30] INFO [lab3:91] {u'session_key': u'0018f04801ed83553a8bae504fbdb5d9e9e263f0a0e0c9b23ab17f53fb2', u'user_id': 1}
-[30/Apr/2015 17:56:30] INFO [lab3:35] Oppp
-[30/Apr/2015 17:56:30] INFO [lab3:39] Oppp
-[30/Apr/2015 17:56:30] INFO [lab3:100] 0018f04801ed83553a8bae504fbdb5d9e9e263f0a0e0c9b23ab17f53fb2
-[30/Apr/2015 17:56:30] INFO [lab3:101] 1
-[30/Apr/2015 17:56:30] INFO [lab3:103] 1
-[30/Apr/2015 17:56:30] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 17:56:30] INFO [lab3:41] Oppp
-[30/Apr/2015 17:56:30] INFO [lab3:42] <Response [200]>
-[30/Apr/2015 17:56:30] INFO [lab3:45] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 17:56:30] INFO [lab3:46] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 17:56:33] INFO [lab3:35] Oppp
-[30/Apr/2015 17:56:33] INFO [lab3:39] Oppp
-[30/Apr/2015 17:56:33] INFO [lab3:100] 0018f04801ed83553a8bae504fbdb5d9e9e263f0a0e0c9b23ab17f53fb2
-[30/Apr/2015 17:56:33] INFO [lab3:101] 1
-[30/Apr/2015 17:56:33] INFO [lab3:103] 1
-[30/Apr/2015 17:56:33] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 17:56:33] INFO [lab3:41] Oppp
-[30/Apr/2015 17:56:33] INFO [lab3:42] <Response [200]>
-[30/Apr/2015 17:56:33] INFO [lab3:45] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 17:56:33] INFO [lab3:46] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 17:56:40] INFO [lab3:35] Oppp
-[30/Apr/2015 17:56:40] INFO [lab3:39] Oppp
-[30/Apr/2015 17:56:40] INFO [lab3:100] 0018f04801ed83553a8bae504fbdb5d9e9e263f0a0e0c9b23ab17f53fb2
-[30/Apr/2015 17:56:40] INFO [lab3:101] 1
-[30/Apr/2015 17:56:40] INFO [lab3:103] 1
-[30/Apr/2015 17:56:40] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 17:56:40] INFO [lab3:41] Oppp
-[30/Apr/2015 17:56:40] INFO [lab3:42] <Response [200]>
-[30/Apr/2015 17:56:40] INFO [lab3:45] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 17:56:40] INFO [lab3:46] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 17:56:43] INFO [lab3:35] Oppp
-[30/Apr/2015 17:56:43] INFO [lab3:39] Oppp
-[30/Apr/2015 17:56:43] INFO [lab3:100] 0018f04801ed83553a8bae504fbdb5d9e9e263f0a0e0c9b23ab17f53fb2
-[30/Apr/2015 17:56:43] INFO [lab3:101] 1
-[30/Apr/2015 17:56:43] INFO [lab3:103] 1
-[30/Apr/2015 17:56:43] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 17:56:43] INFO [lab3:41] Oppp
-[30/Apr/2015 17:56:43] INFO [lab3:42] <Response [200]>
-[30/Apr/2015 17:56:43] INFO [lab3:45] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 17:56:43] INFO [lab3:46] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 17:56:52] INFO [lab3:35] Oppp
-[30/Apr/2015 17:56:52] INFO [lab3:39] Oppp
-[30/Apr/2015 17:56:52] INFO [lab3:100] 0018f04801ed83553a8bae504fbdb5d9e9e263f0a0e0c9b23ab17f53fb2
-[30/Apr/2015 17:56:52] INFO [lab3:101] 1
-[30/Apr/2015 17:56:52] INFO [lab3:103] 1
-[30/Apr/2015 17:56:52] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 17:56:52] INFO [lab3:41] Oppp
-[30/Apr/2015 17:56:52] INFO [lab3:42] <Response [200]>
-[30/Apr/2015 17:56:52] INFO [lab3:45] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 17:56:52] INFO [lab3:46] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 17:59:22] INFO [lab3:35] Oppp
-[30/Apr/2015 17:59:22] INFO [lab3:39] Oppp
-[30/Apr/2015 17:59:22] INFO [lab3:100] 0018f04801ed83553a8bae504fbdb5d9e9e263f0a0e0c9b23ab17f53fb2
-[30/Apr/2015 17:59:22] INFO [lab3:101] 1
-[30/Apr/2015 17:59:22] INFO [lab3:103] 1
-[30/Apr/2015 17:59:22] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 17:59:22] INFO [lab3:41] Oppp
-[30/Apr/2015 17:59:22] INFO [lab3:42] <Response [200]>
-[30/Apr/2015 17:59:22] INFO [lab3:45] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 17:59:22] INFO [lab3:46] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 17:59:25] INFO [lab3:113] delete
-[30/Apr/2015 17:59:25] INFO [lab3:35] Oppp
-[30/Apr/2015 17:59:25] INFO [lab3:39] Oppp
-[30/Apr/2015 17:59:25] INFO [lab3:100] 0018f04801ed83553a8bae504fbdb5d9e9e263f0a0e0c9b23ab17f53fb2
-[30/Apr/2015 17:59:25] INFO [lab3:101] 1
-[30/Apr/2015 17:59:25] INFO [lab3:103] 1
-[30/Apr/2015 17:59:25] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 17:59:25] INFO [lab3:41] Oppp
-[30/Apr/2015 17:59:25] INFO [lab3:42] <Response [200]>
-[30/Apr/2015 17:59:25] INFO [lab3:45] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 17:59:25] INFO [lab3:46] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:00:31] INFO [lab3:35] Oppp
-[30/Apr/2015 18:00:31] INFO [lab3:39] Oppp
-[30/Apr/2015 18:00:31] INFO [lab3:100] 0018f04801ed83553a8bae504fbdb5d9e9e263f0a0e0c9b23ab17f53fb2
-[30/Apr/2015 18:00:31] INFO [lab3:101] 1
-[30/Apr/2015 18:00:31] INFO [lab3:103] 1
-[30/Apr/2015 18:00:31] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:00:31] INFO [lab3:41] Oppp
-[30/Apr/2015 18:00:31] INFO [lab3:42] <Response [200]>
-[30/Apr/2015 18:00:31] INFO [lab3:45] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:00:31] INFO [lab3:46] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:00:34] INFO [lab3:113] delete
-[30/Apr/2015 18:00:34] INFO [lab3:35] Oppp
-[30/Apr/2015 18:00:34] INFO [lab3:39] Oppp
-[30/Apr/2015 18:00:34] INFO [lab3:100] 0018f04801ed83553a8bae504fbdb5d9e9e263f0a0e0c9b23ab17f53fb2
-[30/Apr/2015 18:00:34] INFO [lab3:101] 1
-[30/Apr/2015 18:00:34] INFO [lab3:103] 1
-[30/Apr/2015 18:00:34] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:00:34] INFO [lab3:41] Oppp
-[30/Apr/2015 18:00:34] INFO [lab3:42] <Response [200]>
-[30/Apr/2015 18:00:34] INFO [lab3:45] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:00:34] INFO [lab3:46] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:10:12] INFO [lab3:35] Oppp
-[30/Apr/2015 18:10:12] INFO [lab3:100] 0018f04801ed83553a8bae504fbdb5d9e9e263f0a0e0c9b23ab17f53fb2
-[30/Apr/2015 18:10:12] INFO [lab3:101] 1
-[30/Apr/2015 18:10:12] INFO [lab3:103] None
-[30/Apr/2015 18:10:12] INFO [lab3:40] <Response [500]>
-[30/Apr/2015 18:10:15] INFO [lab3:33] {"session_key": "00124e35722dbc8aa7bb347a9191114af221e49ae8d8d5a5125056dc75c", "user_id": 1}
-[30/Apr/2015 18:10:15] INFO [lab3:89] {u'session_key': u'00124e35722dbc8aa7bb347a9191114af221e49ae8d8d5a5125056dc75c', u'user_id': 1}
-[30/Apr/2015 18:10:15] INFO [lab3:35] Oppp
-[30/Apr/2015 18:10:15] INFO [lab3:100] 00124e35722dbc8aa7bb347a9191114af221e49ae8d8d5a5125056dc75c
-[30/Apr/2015 18:10:15] INFO [lab3:101] 1
-[30/Apr/2015 18:10:15] INFO [lab3:103] 1
-[30/Apr/2015 18:10:15] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:10:15] INFO [lab3:40] <Response [200]>
-[30/Apr/2015 18:10:15] INFO [lab3:43] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:10:15] INFO [lab3:44] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:10:18] INFO [lab3:110] delete
-[30/Apr/2015 18:10:18] INFO [lab3:113] delete
-[30/Apr/2015 18:10:18] INFO [lab3:35] Oppp
-[30/Apr/2015 18:10:18] INFO [lab3:100] 00124e35722dbc8aa7bb347a9191114af221e49ae8d8d5a5125056dc75c
-[30/Apr/2015 18:10:18] INFO [lab3:101] 1
-[30/Apr/2015 18:10:18] INFO [lab3:103] 1
-[30/Apr/2015 18:10:18] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:10:18] INFO [lab3:40] <Response [200]>
-[30/Apr/2015 18:10:18] INFO [lab3:43] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:10:18] INFO [lab3:44] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:16:14] INFO [lab3:35] Oppp
-[30/Apr/2015 18:16:14] INFO [lab3:100] 00124e35722dbc8aa7bb347a9191114af221e49ae8d8d5a5125056dc75c
-[30/Apr/2015 18:16:14] INFO [lab3:101] 1
-[30/Apr/2015 18:16:14] INFO [lab3:103] None
-[30/Apr/2015 18:16:14] INFO [lab3:40] <Response [500]>
-[30/Apr/2015 18:16:17] INFO [lab3:33] {"session_key": "0019131aac5282f8d2c29424f1a968acc383b0d44183d29fa081b9df8e4", "user_id": 1}
-[30/Apr/2015 18:16:17] INFO [lab3:89] {u'session_key': u'0019131aac5282f8d2c29424f1a968acc383b0d44183d29fa081b9df8e4', u'user_id': 1}
-[30/Apr/2015 18:16:17] INFO [lab3:35] Oppp
-[30/Apr/2015 18:16:17] INFO [lab3:100] 0019131aac5282f8d2c29424f1a968acc383b0d44183d29fa081b9df8e4
-[30/Apr/2015 18:16:17] INFO [lab3:101] 1
-[30/Apr/2015 18:16:17] INFO [lab3:103] 1
-[30/Apr/2015 18:16:17] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:16:17] INFO [lab3:40] <Response [200]>
-[30/Apr/2015 18:16:17] INFO [lab3:43] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:16:17] INFO [lab3:44] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:16:20] INFO [lab3:110] delete
-[30/Apr/2015 18:16:20] INFO [lab3:113] delete
-[30/Apr/2015 18:16:20] INFO [lab3:35] Oppp
-[30/Apr/2015 18:16:20] INFO [lab3:100] 0019131aac5282f8d2c29424f1a968acc383b0d44183d29fa081b9df8e4
-[30/Apr/2015 18:16:20] INFO [lab3:101] 1
-[30/Apr/2015 18:16:20] INFO [lab3:103] 1
-[30/Apr/2015 18:16:20] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:16:20] INFO [lab3:40] <Response [200]>
-[30/Apr/2015 18:16:20] INFO [lab3:43] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:16:20] INFO [lab3:44] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:18:16] INFO [lab3:35] Oppp
-[30/Apr/2015 18:18:16] INFO [lab3:100] 0019131aac5282f8d2c29424f1a968acc383b0d44183d29fa081b9df8e4
-[30/Apr/2015 18:18:16] INFO [lab3:101] 1
-[30/Apr/2015 18:18:16] INFO [lab3:103] 1
-[30/Apr/2015 18:18:16] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:18:16] INFO [lab3:40] <Response [200]>
-[30/Apr/2015 18:18:16] INFO [lab3:43] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:18:16] INFO [lab3:44] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:18:21] INFO [lab3:110] delete
-[30/Apr/2015 18:18:21] INFO [lab3:113] delete
-[30/Apr/2015 18:18:21] INFO [lab3:35] Oppp
-[30/Apr/2015 18:18:21] INFO [lab3:100] 0019131aac5282f8d2c29424f1a968acc383b0d44183d29fa081b9df8e4
-[30/Apr/2015 18:18:21] INFO [lab3:101] 1
-[30/Apr/2015 18:18:21] INFO [lab3:103] 1
-[30/Apr/2015 18:18:21] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:18:21] INFO [lab3:40] <Response [200]>
-[30/Apr/2015 18:18:21] INFO [lab3:43] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:18:21] INFO [lab3:44] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:19:25] INFO [lab3:35] Oppp
-[30/Apr/2015 18:19:25] INFO [lab3:100] 0019131aac5282f8d2c29424f1a968acc383b0d44183d29fa081b9df8e4
-[30/Apr/2015 18:19:25] INFO [lab3:101] 1
-[30/Apr/2015 18:19:25] INFO [lab3:103] 1
-[30/Apr/2015 18:19:25] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:19:25] INFO [lab3:40] <Response [200]>
-[30/Apr/2015 18:19:25] INFO [lab3:43] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:19:25] INFO [lab3:44] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:19:28] INFO [lab3:110] delete
-[30/Apr/2015 18:19:28] INFO [lab3:113] delete
-[30/Apr/2015 18:19:28] INFO [lab3:35] Oppp
-[30/Apr/2015 18:19:28] INFO [lab3:100] 0019131aac5282f8d2c29424f1a968acc383b0d44183d29fa081b9df8e4
-[30/Apr/2015 18:19:28] INFO [lab3:101] 1
-[30/Apr/2015 18:19:28] INFO [lab3:103] 1
-[30/Apr/2015 18:19:28] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:19:28] INFO [lab3:40] <Response [200]>
-[30/Apr/2015 18:19:28] INFO [lab3:43] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:19:28] INFO [lab3:44] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:20:32] INFO [lab3:100] 0019131aac5282f8d2c29424f1a968acc383b0d44183d29fa081b9df8e4
-[30/Apr/2015 18:20:32] INFO [lab3:101] 1
-[30/Apr/2015 18:20:32] INFO [lab3:103] 1
-[30/Apr/2015 18:20:32] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:20:32] INFO [lab3:39] <Response [200]>
-[30/Apr/2015 18:20:32] INFO [lab3:42] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:20:32] INFO [lab3:43] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:20:34] INFO [lab3:100] 0019131aac5282f8d2c29424f1a968acc383b0d44183d29fa081b9df8e4
-[30/Apr/2015 18:20:34] INFO [lab3:101] 1
-[30/Apr/2015 18:20:34] INFO [lab3:103] 1
-[30/Apr/2015 18:20:34] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:20:34] INFO [lab3:39] <Response [200]>
-[30/Apr/2015 18:20:34] INFO [lab3:42] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:20:34] INFO [lab3:43] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:31:03] INFO [lab3:100] 0019131aac5282f8d2c29424f1a968acc383b0d44183d29fa081b9df8e4
-[30/Apr/2015 18:31:03] INFO [lab3:101] 1
-[30/Apr/2015 18:31:03] INFO [lab3:103] None
-[30/Apr/2015 18:31:03] INFO [lab3:39] <Response [500]>
-[30/Apr/2015 18:31:06] INFO [lab3:33] {"session_key": "00113d790847dce9381f206573963e87eab440274671fa89b4637b3c69a", "user_id": 1}
-[30/Apr/2015 18:31:06] INFO [lab3:88] {u'session_key': u'00113d790847dce9381f206573963e87eab440274671fa89b4637b3c69a', u'user_id': 1}
-[30/Apr/2015 18:31:06] INFO [lab3:100] 00113d790847dce9381f206573963e87eab440274671fa89b4637b3c69a
-[30/Apr/2015 18:31:06] INFO [lab3:101] 1
-[30/Apr/2015 18:31:06] INFO [lab3:103] 1
-[30/Apr/2015 18:31:06] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:31:06] INFO [lab3:39] <Response [200]>
-[30/Apr/2015 18:31:06] INFO [lab3:42] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:31:06] INFO [lab3:43] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:31:09] INFO [lab3:100] 00113d790847dce9381f206573963e87eab440274671fa89b4637b3c69a
-[30/Apr/2015 18:31:09] INFO [lab3:101] 1
-[30/Apr/2015 18:31:09] INFO [lab3:103] 1
-[30/Apr/2015 18:31:09] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:31:09] INFO [lab3:39] <Response [200]>
-[30/Apr/2015 18:31:09] INFO [lab3:42] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:31:09] INFO [lab3:43] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:31:09] INFO [lab3:100] 00113d790847dce9381f206573963e87eab440274671fa89b4637b3c69a
-[30/Apr/2015 18:31:09] INFO [lab3:101] 1
-[30/Apr/2015 18:31:09] INFO [lab3:103] 1
-[30/Apr/2015 18:31:09] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:31:09] INFO [lab3:39] <Response [200]>
-[30/Apr/2015 18:31:09] INFO [lab3:42] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:31:09] INFO [lab3:43] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:31:13] INFO [lab3:100] 00113d790847dce9381f206573963e87eab440274671fa89b4637b3c69a
-[30/Apr/2015 18:31:13] INFO [lab3:101] 1
-[30/Apr/2015 18:31:13] INFO [lab3:103] 1
-[30/Apr/2015 18:31:13] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:31:13] INFO [lab3:39] <Response [200]>
-[30/Apr/2015 18:31:13] INFO [lab3:42] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:31:13] INFO [lab3:43] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:37:51] INFO [lab3:100] 00113d790847dce9381f206573963e87eab440274671fa89b4637b3c69a
-[30/Apr/2015 18:37:51] INFO [lab3:101] 1
-[30/Apr/2015 18:37:51] INFO [lab3:103] None
-[30/Apr/2015 18:37:51] INFO [lab3:39] <Response [500]>
-[30/Apr/2015 18:37:56] INFO [lab3:33] {"session_key": "00129ee0819ec41b8416fc610589330b49b9538915df16cf5b7239666a7", "user_id": 1}
-[30/Apr/2015 18:37:56] INFO [lab3:88] {u'session_key': u'00129ee0819ec41b8416fc610589330b49b9538915df16cf5b7239666a7', u'user_id': 1}
-[30/Apr/2015 18:37:56] INFO [lab3:100] 00129ee0819ec41b8416fc610589330b49b9538915df16cf5b7239666a7
-[30/Apr/2015 18:37:56] INFO [lab3:101] 1
-[30/Apr/2015 18:37:56] INFO [lab3:103] 1
-[30/Apr/2015 18:37:56] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:37:56] INFO [lab3:39] <Response [200]>
-[30/Apr/2015 18:37:56] INFO [lab3:42] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:37:56] INFO [lab3:43] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:39:12] INFO [lab3:100] 00129ee0819ec41b8416fc610589330b49b9538915df16cf5b7239666a7
-[30/Apr/2015 18:39:12] INFO [lab3:101] 1
-[30/Apr/2015 18:39:12] INFO [lab3:103] 1
-[30/Apr/2015 18:39:12] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:39:12] INFO [lab3:39] <Response [200]>
-[30/Apr/2015 18:39:12] INFO [lab3:42] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:39:12] INFO [lab3:43] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:39:25] INFO [lab3:100] 00129ee0819ec41b8416fc610589330b49b9538915df16cf5b7239666a7
-[30/Apr/2015 18:39:25] INFO [lab3:101] 1
-[30/Apr/2015 18:39:25] INFO [lab3:103] 1
-[30/Apr/2015 18:39:25] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:39:25] INFO [lab3:39] <Response [200]>
-[30/Apr/2015 18:39:25] INFO [lab3:42] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:39:25] INFO [lab3:43] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
-[30/Apr/2015 18:42:13] INFO [lab3:33] {"session_key": "0019422cc0868ee0e5aadceeecbe57bb440397c43de054b0081db3fa707", "user_id": 1}
-[30/Apr/2015 18:42:13] INFO [lab3:88] {u'session_key': u'0019422cc0868ee0e5aadceeecbe57bb440397c43de054b0081db3fa707', u'user_id': 1}
-[30/Apr/2015 18:42:13] INFO [lab3:100] 0019422cc0868ee0e5aadceeecbe57bb440397c43de054b0081db3fa707
-[30/Apr/2015 18:42:13] INFO [lab3:101] 1
-[30/Apr/2015 18:42:13] INFO [lab3:103] 1
-[30/Apr/2015 18:42:13] INFO [lab3:108] {"phone": "+79057270577", "login": "nikozavr", "name": "Nikita", "email": "nikita.arinkin@gmail.com"}
-[30/Apr/2015 18:42:13] INFO [lab3:39] <Response [200]>
-[30/Apr/2015 18:42:13] INFO [lab3:42] {u'phone': u'+79057270577', u'login': u'nikozavr', u'name': u'Nikita', u'email': u'nikita.arinkin@gmail.com'}
-[30/Apr/2015 18:42:13] INFO [lab3:43] {u'count': 4, u'manufacturers': [{u'country': u'USA', u'id': 1, u'name': u'Apple', u'established': 1976}, {u'country': u'Taiwan', u'id': 2, u'name': u'HTC', u'established': 1997}, {u'country': u'South Korea', u'id': 3, u'name': u'LG', u'established': 1958}, {u'country': u'Japan', u'id': 4, u'name': u'Sony', u'established': 1946}]}
+[01/May/2015 11:08:59] INFO [lab3:85] {u'session_key': u'001472eafcffe047625f131aaf4dc8f8a6c97b6fd15d3950621b192a6de', u'user_id': 1}
+[01/May/2015 11:14:07] INFO [lab3:85] {u'session_key': u'001ba23440ea4a07ea9f729c2fa4f349d91fdfc1ddfb542f72e133977d3', u'user_id': 1}
+[01/May/2015 11:32:18] INFO [lab3:172] {'session_key': u'001ba23440ea4a07ea9f729c2fa4f349d91fdfc1ddfb542f72e133977d3'}
+[01/May/2015 11:33:18] INFO [lab3:172] {'session_key': u'001ba23440ea4a07ea9f729c2fa4f349d91fdfc1ddfb542f72e133977d3'}
+[01/May/2015 11:34:09] INFO [lab3:38] {'session_key': u'001ba23440ea4a07ea9f729c2fa4f349d91fdfc1ddfb542f72e133977d3'}
+[01/May/2015 11:34:11] INFO [lab3:86] {u'session_key': u'001b8a9fdec0f6d116a09e4423c064f27804557bade3ea3001d62462430', u'user_id': 1}
+[01/May/2015 11:34:11] INFO [lab3:38] {'session_key': u'001b8a9fdec0f6d116a09e4423c064f27804557bade3ea3001d62462430'}
+[01/May/2015 11:34:12] INFO [lab3:172] {'session_key': u'001b8a9fdec0f6d116a09e4423c064f27804557bade3ea3001d62462430'}
+[01/May/2015 11:35:08] INFO [lab3:172] {'session_key': u'001b8a9fdec0f6d116a09e4423c064f27804557bade3ea3001d62462430'}
+[01/May/2015 11:36:07] INFO [lab3:172] {'session_key': u'001b8a9fdec0f6d116a09e4423c064f27804557bade3ea3001d62462430'}
+[01/May/2015 11:39:01] INFO [lab3:172] {'session_key': u'001b8a9fdec0f6d116a09e4423c064f27804557bade3ea3001d62462430'}
+[01/May/2015 11:39:05] INFO [lab3:38] {'session_key': u'001b8a9fdec0f6d116a09e4423c064f27804557bade3ea3001d62462430'}
+[01/May/2015 11:39:07] INFO [lab3:152] {'session_key': u'001b8a9fdec0f6d116a09e4423c064f27804557bade3ea3001d62462430'}
+[01/May/2015 11:39:52] INFO [lab3:152] {'session_key': u'001b8a9fdec0f6d116a09e4423c064f27804557bade3ea3001d62462430'}
+[01/May/2015 11:39:56] INFO [lab3:86] {u'session_key': u'0017a70c457e6c6b2c14af9235b2318f95e33cc002ddef850d1fec1993d', u'user_id': 1}
+[01/May/2015 11:39:56] INFO [lab3:38] {'session_key': u'0017a70c457e6c6b2c14af9235b2318f95e33cc002ddef850d1fec1993d'}
+[01/May/2015 11:39:59] INFO [lab3:152] {'session_key': u'0017a70c457e6c6b2c14af9235b2318f95e33cc002ddef850d1fec1993d'}
+[01/May/2015 11:40:03] INFO [lab3:38] {'session_key': u'0017a70c457e6c6b2c14af9235b2318f95e33cc002ddef850d1fec1993d'}
+[01/May/2015 11:40:06] INFO [lab3:152] {'session_key': u'0017a70c457e6c6b2c14af9235b2318f95e33cc002ddef850d1fec1993d'}
+[01/May/2015 11:44:12] INFO [lab3:152] {'session_key': u'0017a70c457e6c6b2c14af9235b2318f95e33cc002ddef850d1fec1993d'}
+[01/May/2015 11:44:25] INFO [lab3:172] {'session_key': u'0017a70c457e6c6b2c14af9235b2318f95e33cc002ddef850d1fec1993d'}
+[01/May/2015 11:44:27] INFO [lab3:172] {'session_key': u'0017a70c457e6c6b2c14af9235b2318f95e33cc002ddef850d1fec1993d'}
+[01/May/2015 11:44:28] INFO [lab3:172] {'session_key': u'0017a70c457e6c6b2c14af9235b2318f95e33cc002ddef850d1fec1993d'}
+[01/May/2015 11:45:35] INFO [lab3:172] {'session_key': u'0017a70c457e6c6b2c14af9235b2318f95e33cc002ddef850d1fec1993d'}
+[01/May/2015 11:46:44] INFO [lab3:172] {'session_key': u'0017a70c457e6c6b2c14af9235b2318f95e33cc002ddef850d1fec1993d'}
+[01/May/2015 11:55:02] INFO [lab3:38] {'session_key': u'0017a70c457e6c6b2c14af9235b2318f95e33cc002ddef850d1fec1993d'}
+[01/May/2015 11:55:05] INFO [lab3:86] {u'session_key': u'001f3b189253fdcee689e184dff8c58753c05fd3ac765633d99be3fe1e7', u'user_id': 1}
+[01/May/2015 11:55:05] INFO [lab3:38] {'session_key': u'001f3b189253fdcee689e184dff8c58753c05fd3ac765633d99be3fe1e7'}
+[01/May/2015 11:55:10] INFO [lab3:172] {'session_key': u'001f3b189253fdcee689e184dff8c58753c05fd3ac765633d99be3fe1e7'}
+[01/May/2015 11:58:29] INFO [lab3:190] {'established': '', 'session_key': u'001f3b189253fdcee689e184dff8c58753c05fd3ac765633d99be3fe1e7', 'name': '', 'country': ''}
+[01/May/2015 11:59:21] INFO [lab3:38] {'session_key': u'001f3b189253fdcee689e184dff8c58753c05fd3ac765633d99be3fe1e7'}
+[01/May/2015 11:59:23] INFO [lab3:172] {'session_key': u'001f3b189253fdcee689e184dff8c58753c05fd3ac765633d99be3fe1e7'}
+[01/May/2015 11:59:36] INFO [lab3:190] {'established': '', 'session_key': u'001f3b189253fdcee689e184dff8c58753c05fd3ac765633d99be3fe1e7', 'name': '', 'country': ''}
+[01/May/2015 12:03:37] INFO [lab3:38] {'session_key': u'001f3b189253fdcee689e184dff8c58753c05fd3ac765633d99be3fe1e7'}
+[01/May/2015 12:03:39] INFO [lab3:86] {u'session_key': u'00117f8e6df7660a244fa07527ee09d49fce9a877115368dc8f9f5f3001', u'user_id': 1}
+[01/May/2015 12:03:39] INFO [lab3:38] {'session_key': u'00117f8e6df7660a244fa07527ee09d49fce9a877115368dc8f9f5f3001'}
+[01/May/2015 12:03:41] INFO [lab3:172] {'session_key': u'00117f8e6df7660a244fa07527ee09d49fce9a877115368dc8f9f5f3001'}
+[01/May/2015 12:03:52] INFO [lab3:190] {'established': '', 'session_key': u'00117f8e6df7660a244fa07527ee09d49fce9a877115368dc8f9f5f3001', 'name': '', 'country': ''}
+[01/May/2015 12:04:14] INFO [lab3:38] {'session_key': u'00117f8e6df7660a244fa07527ee09d49fce9a877115368dc8f9f5f3001'}
+[01/May/2015 12:04:58] INFO [lab3:172] {'session_key': u'00117f8e6df7660a244fa07527ee09d49fce9a877115368dc8f9f5f3001'}
+[01/May/2015 12:05:11] INFO [lab3:190] {'established': '', 'session_key': u'00117f8e6df7660a244fa07527ee09d49fce9a877115368dc8f9f5f3001', 'name': '', 'country': ''}
+[01/May/2015 12:06:52] INFO [lab3:38] {'session_key': u'00117f8e6df7660a244fa07527ee09d49fce9a877115368dc8f9f5f3001'}
+[01/May/2015 12:06:54] INFO [lab3:174] {'session_key': u'00117f8e6df7660a244fa07527ee09d49fce9a877115368dc8f9f5f3001'}
+[01/May/2015 12:07:07] INFO [lab3:191] {'established': '', 'session_key': '', 'name': '', 'country': ''}
+[01/May/2015 12:08:43] INFO [lab3:38] {'session_key': u'00117f8e6df7660a244fa07527ee09d49fce9a877115368dc8f9f5f3001'}
+[01/May/2015 12:08:46] INFO [lab3:86] {u'session_key': u'00118c3798621d0778b353dc459a0bfba6004e5cdf2e86487a8075dea46', u'user_id': 1}
+[01/May/2015 12:08:46] INFO [lab3:38] {'session_key': u'00118c3798621d0778b353dc459a0bfba6004e5cdf2e86487a8075dea46'}
+[01/May/2015 12:08:47] INFO [lab3:172] {'session_key': u'00118c3798621d0778b353dc459a0bfba6004e5cdf2e86487a8075dea46'}
+[01/May/2015 12:09:01] INFO [lab3:190] {'established': '', 'session_key': u'00118c3798621d0778b353dc459a0bfba6004e5cdf2e86487a8075dea46', 'name': '', 'country': ''}
+[01/May/2015 12:17:31] INFO [lab3:38] {'session_key': u'00118c3798621d0778b353dc459a0bfba6004e5cdf2e86487a8075dea46'}
+[01/May/2015 12:17:33] INFO [lab3:86] {u'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2', u'user_id': 1}
+[01/May/2015 12:17:33] INFO [lab3:38] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:17:34] INFO [lab3:172] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:17:45] INFO [lab3:190] {'established': u'1987', 'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2', 'name': u'Huawei', 'country': u'\u041a\u0438\u0442\u0430\u0439'}
+[01/May/2015 12:17:45] INFO [lab3:38] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:17:51] INFO [lab3:127] {'manufacturer_id': u'6', 'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:17:51] INFO [lab3:38] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:17:51] INFO [lab3:38] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:21:18] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:21:30] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:22:17] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:22:19] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:22:53] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:23:56] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:24:28] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:26:11] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:26:35] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:27:30] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:27:49] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:28:42] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:33:38] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:41:26] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:42:14] INFO [lab3:211] {'established': '', 'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2', 'name': u'Ascend Mate 7', 'country': ''}
+[01/May/2015 12:42:56] INFO [lab3:152] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:43:13] INFO [lab3:179] {'name': u'Huawei', 'dig_disp': u'6.0', 'device_type': u'smartphone', 'year': u'2014', 'manufacturer_id': u'5', 'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:43:40] INFO [lab3:38] {'session_key': u'001f74b104e871032db9d1e9741e5bafa5fbe6710206afc4f5c95fb44a2'}
+[01/May/2015 12:43:42] INFO [lab3:86] {u'session_key': u'00178f5947fa2b4ff1a06920203002be16c81c103f4b4707b668f532705', u'user_id': 1}
+[01/May/2015 12:43:42] INFO [lab3:38] {'session_key': u'00178f5947fa2b4ff1a06920203002be16c81c103f4b4707b668f532705'}
+[01/May/2015 12:43:44] INFO [lab3:193] {'session_key': u'00178f5947fa2b4ff1a06920203002be16c81c103f4b4707b668f532705'}
+[01/May/2015 12:43:46] INFO [lab3:38] {'session_key': u'00178f5947fa2b4ff1a06920203002be16c81c103f4b4707b668f532705'}
+[01/May/2015 12:43:47] INFO [lab3:152] {'session_key': u'00178f5947fa2b4ff1a06920203002be16c81c103f4b4707b668f532705'}
+[01/May/2015 12:44:02] INFO [lab3:179] {'name': u'Ascend Mate 7', 'dig_disp': u'6.0', 'device_type': u'smartphone', 'year': u'2014', 'manufacturer_id': u'5', 'session_key': u'00178f5947fa2b4ff1a06920203002be16c81c103f4b4707b668f532705'}
+[01/May/2015 12:46:05] INFO [lab3:152] {'session_key': u'00178f5947fa2b4ff1a06920203002be16c81c103f4b4707b668f532705'}
+[01/May/2015 12:46:07] INFO [lab3:179] {'name': u'Ascend Mate 7', 'dig_disp': u'6.0', 'device_type': u'smartphone', 'year': u'2014', 'manufacturer_id': u'5', 'session_key': u'00178f5947fa2b4ff1a06920203002be16c81c103f4b4707b668f532705'}
+[01/May/2015 12:47:57] INFO [lab3:179] {'name': u'Ascend Mate 7', 'dig_disp': u'6.0', 'device_type': u'smartphone', 'year': u'2014', 'manufacturer_id': u'5', 'session_key': u'00178f5947fa2b4ff1a06920203002be16c81c103f4b4707b668f532705'}
+[01/May/2015 12:48:47] INFO [lab3:179] {'name': u'Ascend Mate 7', 'dig_disp': u'6.0', 'device_type': u'smartphone', 'year': u'2014', 'manufacturer_id': u'5', 'session_key': u'00178f5947fa2b4ff1a06920203002be16c81c103f4b4707b668f532705'}
+[01/May/2015 12:49:16] INFO [lab3:179] {'name': u'Ascend Mate 7', 'dig_disp': u'6.0', 'device_type': u'smartphone', 'year': u'2014', 'manufacturer_id': u'5', 'session_key': u'00178f5947fa2b4ff1a06920203002be16c81c103f4b4707b668f532705'}
+[01/May/2015 12:49:24] INFO [lab3:38] {'session_key': u'00178f5947fa2b4ff1a06920203002be16c81c103f4b4707b668f532705'}
+[01/May/2015 12:49:26] INFO [lab3:86] {u'session_key': u'001c3bac31704a5cae364bbfdf155f2cc0b4424bfc9eaf82564bdd73922', u'user_id': 1}
+[01/May/2015 12:49:26] INFO [lab3:38] {'session_key': u'001c3bac31704a5cae364bbfdf155f2cc0b4424bfc9eaf82564bdd73922'}
+[01/May/2015 12:49:30] INFO [lab3:152] {'session_key': u'001c3bac31704a5cae364bbfdf155f2cc0b4424bfc9eaf82564bdd73922'}
+[01/May/2015 12:49:44] INFO [lab3:179] {'name': u'Ascend Mate 7', 'dig_disp': u'6.0', 'device_type': u'smartphone', 'year': u'2014', 'manufacturer_id': u'5', 'session_key': u'001c3bac31704a5cae364bbfdf155f2cc0b4424bfc9eaf82564bdd73922'}
+[01/May/2015 12:49:44] INFO [lab3:38] {'session_key': u'001c3bac31704a5cae364bbfdf155f2cc0b4424bfc9eaf82564bdd73922'}
+[01/May/2015 12:50:03] INFO [lab3:152] {'session_key': u'001c3bac31704a5cae364bbfdf155f2cc0b4424bfc9eaf82564bdd73922'}
+[01/May/2015 12:50:04] INFO [lab3:38] {'session_key': u'001c3bac31704a5cae364bbfdf155f2cc0b4424bfc9eaf82564bdd73922'}

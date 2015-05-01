@@ -20,9 +20,6 @@
     <!-- Custom styles for this template -->
     <link href="{% static "non-responsive.css" %}" rel="stylesheet">
 
-    <link href="{% static "docs.css" %}" rel="stylesheet">
-    <link href="{% static "bootstrap-table.css" %}" rel="stylesheet">
-
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
@@ -73,7 +70,7 @@
 				    <table class="table table-striped custab">
 				    <thead>
 				    {% if data_user != 0 %}
-				    <a href="#" class="btn btn-primary btn-xs pull-right">Добавить нового производителя</a>
+				    <a href="{% url 'frontend:add_manufacturer' %}" class="btn btn-primary btn-xs pull-right">Добавить нового производителя</a>
 				    {% endif %}
 				        <tr>
 				            <th class="col-md-1 text-center">id</th>
@@ -110,7 +107,7 @@
 				    <table class="table table-striped custab">
 				    <thead>
 				    {% if data_user != 0 %}
-				    <a href="#" class="btn btn-primary btn-xs pull-right">Добавить новое устройство</a>
+				    <a href="{% url 'frontend:add_device' %}" class="btn btn-primary btn-xs pull-right">Добавить новое устройство</a>
 				    {% endif %}
 				        <tr>
 				            <th class="col-md-1 text-center">id</th>

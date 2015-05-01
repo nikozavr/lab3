@@ -126,6 +126,30 @@ LOGGING = {
             'maxBytes': 50000,
             'backupCount': 2,
             'formatter': 'standard',
+        },
+        'logfile_backend_d': {
+            'level':'INFO',
+            'class':'logging.handlers.RotatingFileHandler',
+            'filename': BASE_DIR + "/log_device",
+            'maxBytes': 50000,
+            'backupCount': 2,
+            'formatter': 'standard',
+        },
+        'logfile_backend_m': {
+            'level':'INFO',
+            'class':'logging.handlers.RotatingFileHandler',
+            'filename': BASE_DIR + "/log_manufacturer",
+            'maxBytes': 50000,
+            'backupCount': 2,
+            'formatter': 'standard',
+        },
+        'logfile_session': {
+            'level':'INFO',
+            'class':'logging.handlers.RotatingFileHandler',
+            'filename': BASE_DIR + "/log_session",
+            'maxBytes': 50000,
+            'backupCount': 2,
+            'formatter': 'standard',
         }
     },
     'loggers': {
@@ -136,6 +160,18 @@ LOGGING = {
         },
         'lab3': {
             'handlers': ['console', 'logfile'],
+            'level': 'INFO',
+        },
+        'backend_manufacturer': {
+            'handlers': ['console', 'logfile_backend_m'],
+            'level': 'INFO',
+        },
+        'backend_device': {
+            'handlers': ['console', 'logfile_backend_d'],
+            'level': 'INFO',
+        },
+        'session': {
+            'handlers': ['console', 'logfile_session'],
             'level': 'INFO',
         }
     }
@@ -163,7 +199,7 @@ DATE_FORMAT = '%Y-%m-%d %H:%M:%S'
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = '/static/root/'
+STATIC_ROOT = '/srv/www/lab3/static/root/'
 
 STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".

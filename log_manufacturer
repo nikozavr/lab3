@@ -1,0 +1,7 @@
+[01/May/2015 10:24:20] INFO [backend_manufacturer:31] TEst
+[01/May/2015 12:17:45] INFO [backend_manufacturer:69] {"info": "Success adding"}
+[01/May/2015 12:17:51] INFO [backend_manufacturer:36] {"info": "Success deleting"}
+[01/May/2015 12:49:44] INFO [backend_manufacturer:65] data
+[01/May/2015 12:49:44] INFO [backend_manufacturer:67] data
+[01/May/2015 12:49:44] INFO [backend_manufacturer:69] data
+[01/May/2015 12:49:44] INFO [backend_manufacturer:71] {"info": "Success adding"}
